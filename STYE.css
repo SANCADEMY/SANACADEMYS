@@ -1,0 +1,250 @@
+*, html, body,{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+.fcontainer{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(221, 231, 245);
+    box-shadow:rgb(44, 43, 43)
+}
+
+.wrapper{
+    display: flex;
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(44, 43, 43);
+}
+.brand{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.fristname{
+    color: white;
+    font-weight: 800;
+}
+
+.lastname{
+    color: crimson;
+    font-weight: 400;
+    padding-left: 2px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation > li{
+    list-style-type: none;
+    padding: 30px;
+}
+
+.navigation >li >a{
+    font-size: 18px;
+    font-weight: 30px;
+    color:white;
+    text-transform: capitalize;
+}
+
+.active{
+    background-color: crimson;
+    color: rgb(248, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px gray;
+}
+
+.off{
+    background-color: crimson;
+    color: rgb(248, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 10px gray;
+}
+
+
+.on{
+    background-color: crimson;
+    color: rgb(248, 247, 247);
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px gray;
+}
+ 
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+}
+
+.gradient-text {
+    font-size: 4rem;
+    background: linear-gradient(45deg, #7b2cbf, #9d4edd, #5a189a);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.gradient-text:hover {
+    filter: blur(5px);
+    color: #e722e1;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
+}
+
+.prolog-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.sanacademy-image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.prolog {
+    max-width: 500px;
+    color: #333;
+}
+
+.prolog h2 {
+    font-size: 2rem;
+    color: #5a189a;
+}
+
+.prolog p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.curriculum {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 80%; /* Mengatur lebar menjadi lebih kecil */
+    margin: 0 auto; /* Memposisikan di tengah */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek lebih menarik */
+    border-radius: 10px; /* Menambahkan sudut tumpul */
+}
+
+.curriculum h3 {
+    font-size: 2.5rem;
+    color: #5a189a;
+    margin-bottom: 20px;
+}
+
+.curriculum p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: rgb(51, 51, 51);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Bagian untuk dua video YouTube yang sejajar */
+.videos {
+    display: flex; /* Menggunakan flexbox untuk membuat video sejajar */
+    justify-content: space-around; /* Memberikan jarak antar video */
+    padding: 40px;
+    background-color: #f9f9f9;
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+    font-weight: 300;
+}
+
+/* Mengatur gaya tiap video */
+.video {
+    width: 45%; /* Mengatur lebar video */
+    text-align: center;
+}
+
+.video iframe {
+    border-radius: 10px; /* Memberikan sudut tumpul pada video */
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555; /* Warna teks abu-abu gelap */
+}
+
+/* Bagian banner iklan CapCut Pro */
+.capcut-banner {
+    background: linear-gradient(45deg, #5a189a, #7b2cbf, #9d4edd); /* Gradasi ungu */
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    margin: 40px auto;
+    width: 90%;
+    border-radius: 10px; /* Membuat sudut tumpul */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Memberikan bayangan */
+}
+
+.capcut-banner .banner-content {
+    max-width: 600px;
+    margin: 0 auto; /* Menyelaraskan konten di tengah */
+}
+
+.capcut-banner h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.capcut-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Gaya untuk tombol */
+.capcut-banner button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333; /* Warna tombol hitam */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efek hover transisi */
+}
+
+/* Efek hover pada tombol */
+.capcut-banner button:hover {
+    background-color: #555; /* Warna tombol saat hover */
+}
